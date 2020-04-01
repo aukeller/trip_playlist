@@ -52,7 +52,6 @@ def add_songs_to_new_playlist(times, ids, max): # Adds random songs from user's 
         song_index = random.randint(0, len(all_songs_times))
         total += times[song_index]
         playlist_songs.append(ids[song_index])
-    print(total)
     return playlist_songs
 
 
